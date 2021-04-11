@@ -1,4 +1,5 @@
-<sld:StyledLayerDescriptor xmlns="http://www.opengis.net/ogc" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+<sld:StyledLayerDescriptor xmlns="http://www.opengis.net/ogc" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"  xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+
  <!--
   LIO_OPEN_07 @		
   https://ws.lioservices.lrc.gov.on.ca/arcgis1071a/services/LIO_OPEN_DATA/LIO_Open07/MapServer/WMSServer?r
@@ -8,14 +9,11 @@
    layer "12" is the "Bait Harvest Area" polygon layer in the WMS service
   -->
    <sld:Name>12</sld:Name>
-    <UserStyle>
+    <sld:UserStyle>
       <sld:Name>area</sld:Name>
       <sld:FeatureTypeStyle>
         <sld:Rule>
-          <sld:Name>0 - 47959475</sld:Name>
-          <sld:Description>
-            <sld:Title>0 - 47959475</sld:Title>
-          </sld:Description>
+         
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
               <ogc:PropertyIsGreaterThanOrEqualTo>
@@ -30,18 +28,15 @@
           </ogc:Filter>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:SvgParameter name="stroke">#ffffff</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-width">3</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linejoin">bevel</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linecap">square</sld:SvgParameter>
+              <sld:CssParameter name="stroke">#ffffff</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">bevel</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">square</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Name>47959475 - 88538655</sld:Name>
-          <sld:Description>
-            <sld:Title>47959475 - 88538655</sld:Title>
-          </sld:Description>
+         
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -56,18 +51,15 @@
           </ogc:Filter>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:SvgParameter name="stroke">#ffe3e3</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-width">3</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linejoin">bevel</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linecap">square</sld:SvgParameter>
+              <sld:CssParameter name="stroke">#ffe3e3</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">bevel</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">square</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Name>88538655 - 93380410</sld:Name>
-          <sld:Description>
-            <sld:Title>88538655 - 93380410</sld:Title>
-          </sld:Description>
+         
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -82,18 +74,15 @@
           </ogc:Filter>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:SvgParameter name="stroke">#ffc7c7</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-width">3</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linejoin">bevel</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linecap">square</sld:SvgParameter>
+              <sld:CssParameter name="stroke">#ffc7c7</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">bevel</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">square</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Name>93380410 - 99997046</sld:Name>
-          <sld:Description>
-            <sld:Title>93380410 - 99997046</sld:Title>
-          </sld:Description>
+          
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -108,18 +97,15 @@
           </ogc:Filter>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:SvgParameter name="stroke">#ffaaaa</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-width">3</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linejoin">bevel</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linecap">square</sld:SvgParameter>
+              <sld:CssParameter name="stroke">#ffaaaa</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">bevel</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">square</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Name>99997046 - 99999956</sld:Name>
-          <sld:Description>
-            <sld:Title>99997046 - 99999956</sld:Title>
-          </sld:Description>
+         
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -134,18 +120,15 @@
           </ogc:Filter>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:SvgParameter name="stroke">#ff8e8e</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-width">3</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linejoin">bevel</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linecap">square</sld:SvgParameter>
+              <sld:CssParameter name="stroke">#ff8e8e</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">bevel</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">square</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Name>99999956 - 100000031</sld:Name>
-          <sld:Description>
-            <sld:Title>99999956 - 100000031</sld:Title>
-          </sld:Description>
+         
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -160,18 +143,15 @@
           </ogc:Filter>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:SvgParameter name="stroke">#ff7171</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-width">3</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linejoin">bevel</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linecap">square</sld:SvgParameter>
+              <sld:CssParameter name="stroke">#ff7171</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">bevel</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">square</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Name>100000031 - 100000171</sld:Name>
-          <sld:Description>
-            <sld:Title>100000031 - 100000171</sld:Title>
-          </sld:Description>
+         
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -186,18 +166,15 @@
           </ogc:Filter>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:SvgParameter name="stroke">#ff5555</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-width">3</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linejoin">bevel</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linecap">square</sld:SvgParameter>
+              <sld:CssParameter name="stroke">#ff5555</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">bevel</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">square</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Name>100000171 - 176344202</sld:Name>
-          <sld:Description>
-            <sld:Title>100000171 - 176344202</sld:Title>
-          </sld:Description>
+          
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -212,18 +189,15 @@
           </ogc:Filter>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:SvgParameter name="stroke">#ff3838</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-width">3</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linejoin">bevel</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linecap">square</sld:SvgParameter>
+              <sld:CssParameter name="stroke">#ff3838</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">bevel</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">square</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Name>176344202 - 245674444</sld:Name>
-          <sld:Description>
-            <sld:Title>176344202 - 245674444</sld:Title>
-          </sld:Description>
+         
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -238,18 +212,15 @@
           </ogc:Filter>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:SvgParameter name="stroke">#ff1c1c</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-width">3</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linejoin">bevel</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linecap">square</sld:SvgParameter>
+              <sld:CssParameter name="stroke">#ff1c1c</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">bevel</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">square</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
         <sld:Rule>
-          <sld:Name>245674444 - 10360452646</sld:Name>
-          <sld:Description>
-            <sld:Title>245674444 - 10360452646</sld:Title>
-          </sld:Description>
+         
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:And>
               <ogc:PropertyIsGreaterThan>
@@ -264,10 +235,10 @@
           </ogc:Filter>
           <sld:LineSymbolizer>
             <sld:Stroke>
-              <sld:SvgParameter name="stroke">#ff0000</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-width">3</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linejoin">bevel</sld:SvgParameter>
-              <sld:SvgParameter name="stroke-linecap">square</sld:SvgParameter>
+              <sld:CssParameter name="stroke">#ff0000</sld:CssParameter>
+              <sld:CssParameter name="stroke-width">3</sld:CssParameter>
+              <sld:CssParameter name="stroke-linejoin">bevel</sld:CssParameter>
+              <sld:CssParameter name="stroke-linecap">square</sld:CssParameter>
             </sld:Stroke>
           </sld:LineSymbolizer>
         </sld:Rule>
@@ -279,8 +250,8 @@
               <ogc:PropertyName>BHA_NUMBER</ogc:PropertyName>
             </sld:Label>
             <sld:Font>
-              <sld:SvgParameter name="font-family">MS Shell Dlg 2</sld:SvgParameter>
-              <sld:SvgParameter name="font-size">13</sld:SvgParameter>
+              <sld:CssParameter name="font-family">MS Shell Dlg 2</sld:CssParameter>
+              <sld:CssParameter name="font-size">13</sld:CssParameter>
             </sld:Font>
             <sld:LabelPlacement>
               <sld:PointPlacement>
@@ -291,12 +262,12 @@
               </sld:PointPlacement>
             </sld:LabelPlacement>
             <sld:Fill>
-              <sld:SvgParameter name="fill">#000000</sld:SvgParameter>
+              <sld:CssParameter name="fill">#000000</sld:CssParameter>
             </sld:Fill>
-            <sld:VendorOption name="maxDisplacement">1</sld:VendorOption>
+            
           </sld:TextSymbolizer>
         </sld:Rule>
       </sld:FeatureTypeStyle>
-    </UserStyle>
+    </sld:UserStyle>
  </sld:NamedLayer>
 </sld:StyledLayerDescriptor>
